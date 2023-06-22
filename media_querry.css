@@ -1,0 +1,222 @@
+@media screen and (min-width : 680px) and (max-width : 1042px) {
+    #fixed {
+        flex-basis: 34%;
+    }
+
+    #about ul li {
+        font-size: 1.5rem;
+        margin: 14px 12px;
+    }
+
+    #Programmer img {
+        vertical-align: middle;
+        height: 300px;
+        width: 300px;
+        border-radius: 1000px;
+    }
+
+    #Developer {
+        align-items: center;
+    }
+
+    #ab {
+        text-align: center;
+    }
+
+    .proj div img {
+        margin-top: 10px;
+        height: 100px;
+    }
+
+    .skills {
+
+        height: 165px;
+        width: 165px;
+    }
+
+    .skills img {
+        margin-top: 0px;
+        height: 135px;
+        width: 135px;
+    }
+
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width : 360px)and (max-width : 680px) {
+
+    #hamburger{
+        display: block;
+        z-index: 1000; 
+        width: 30px;  
+    }
+
+    #fixed {
+        display: none;
+        width: 250px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 100;
+    }
+
+    #main {
+        flex-basis: 100%;
+    }
+
+    #Programmer img {
+        vertical-align: middle;
+        height: 295px;
+    }
+
+    #Developer {
+        align-items: center;
+    }
+
+    #ab {
+        text-align: center;
+        /* width: 100%; */
+    }
+
+    #about ul {
+        top: 37vh;
+        margin: 0 20px;
+    }
+
+    #about ul li {
+        font-size: 1.5rem;
+    }
+
+    #resume h3 {
+        font-size: 1.3rem;
+    }
+
+    .skills {
+        height: 150px;
+        width: 150px;
+    }
+
+    .skills img {
+        height: 130px;
+        width: 130px;
+    }
+
+    .proj {
+        width: 55%;
+    }
+
+    #contact p {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+
+}
+
+/* ------------------------------------------------------------------------------------------------- */
+
+ @media screen and (max-width : 360px) {
+
+    #hamburger{
+        display: block;
+        z-index: 1000; 
+        width: 30px;  
+    }
+
+    #fixed {
+        display: none;
+        width: 235px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 100;
+    }
+
+    #main {
+        flex-basis: 100%;
+    }
+
+
+    #Programmer {
+        margin-top: 20px;
+    }
+
+    #Programmer img {
+        vertical-align: middle;
+        height: 200px;
+    }
+
+    #home h3 {
+        font-size: 2rem;
+    }
+
+    #home p {
+        font-size: 1.2rem;
+    }
+
+    #Developer {
+        align-items: center;
+    }
+
+    #ab {
+        text-align: center;
+    }
+
+    #about ul {
+        top: 37vh;
+        margin: 0 20px;
+    }
+
+    #about ul li {
+        font-size: 1.1rem;
+        -webkit-text-stroke-color: black;
+    }
+
+    #resume a img {
+        height: 50px;
+    }
+
+    #resume h3 {
+        font-size: 1.3rem;
+    }
+
+    .skills {
+        height: 120px;
+        width: 120px;
+    }
+
+    .skills img {
+        height: 100px;
+        width: 100px;
+    }
+
+    #skills .style h3 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .proj {
+        width: 60%;
+    }
+
+    .proj div img {
+        margin-top: 0%;
+        height: 110px;
+    }
+
+    #projects h3 {
+        margin: 1vh 1vh;
+        text-align: center;
+    }
+
+    #contact p {
+        width: 70%;
+        font-size: 1.2rem;
+    }
+
+    #contact h3 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+} 
